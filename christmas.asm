@@ -68,6 +68,11 @@ start:
 
 	jmp $
 ctree: ; oh god
+
+; The design for the Christmas tree is not my own;
+; all credit for the tree text goes to
+; https://delightlylinux.wordpress.com/2021/12/23/a-simple-ascii-christmas-tree-in-bash/
+; The colorization, however, was done by myself.
 times 4 db " "
 db '*', 0xA, 0xD
 
